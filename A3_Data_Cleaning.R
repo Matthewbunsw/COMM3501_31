@@ -154,7 +154,7 @@ df %>%
 # 'Alternative' could be dropped (81.1% missing)
 
 # 27 missing values of LifeId and AdviserId
-  # not predictors, so these missing values are not critical in immediate access 
+  # not predictors, so these missing values are not critical in immediate analysis 
   # if we want to drop these rows:  
   # df <- df %>% filter(!is.na(LifeId) & !is.na(AdviserID))
 
